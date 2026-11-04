@@ -1,0 +1,6 @@
+name: prior
+description: >
+  Baseline. Every passage gets each label's training-set frequency as its probability, so after
+  thresholds each label is predicted for every passage or for none.
+model_type: prior
+seeds: [0]

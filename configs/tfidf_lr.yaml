@@ -1,0 +1,6 @@
+name: tfidf_lr
+description: >
+  Baseline. Word unigram+bigram TF-IDF with one class-balanced logistic regression per label,
+  fixed settings, same folds, thresholds and IPC rule as the fixed transformer recipe.
+model_type: tfidf_lr
+seeds: [0]

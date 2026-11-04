@@ -1,0 +1,30 @@
+name: v3_joint
+description: >
+  v3, sentences trained alongside the passage: fixed_unweighted's settings, with the encoder's
+  token states averaged per stored sentence and a sentence head scoring each sentence for every
+  position, trained on the annotated evidence sentences. Labels count by their confidence (high
+  1, medium 0.75, low 0.5). Passage decisions come from the first token, as in fixed_unweighted.
+model_type: sentence_transformer
+passage_from: cls
+confidence_weighting: weights
+sentence_loss_weight: 1.0
+split: grouped_cv
+label_mode: hard
+class_weighting: none
+scheduler: linear
+decay_norm_and_bias: false
+selection_metric: macro_pr_auc
+threshold_policy: min_positives
+threshold_min_positives: 10
+decode: ipc_exclusive
+model_name: roberta-base
+max_length: 512
+batch_size: 8
+learning_rate: 2.0e-5
+weight_decay: 0.02
+dropout: 0.2
+freeze_layers: 6
+epochs: 20
+patience: 5
+warmup_ratio: 0.1
+seeds: [0, 1, 2]

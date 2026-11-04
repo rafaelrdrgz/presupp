@@ -1,0 +1,7 @@
+text_cluster,keep_passage_id,category,confidence,evidence_sentences,decided_on
+BBC239,BBC239,consequentialism,high,3;4;5,2026-10-23
+GOV212,GOV212,consequentialism,medium,3;5,2026-10-23
+PP1303,PP1303,determinism_free_will,high,9,2026-10-23
+PP132,PP132,empiricism,high,4,2026-10-23
+PP1965,PP1965,consequentialism,low,7,2026-10-23
+PP2483,PP2483,empiricism,medium,1;3,2026-10-23

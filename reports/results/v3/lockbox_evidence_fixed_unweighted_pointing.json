@@ -1,0 +1,210 @@
+{
+  "name": "fixed_unweighted_pointing",
+  "n_cases": 156,
+  "n_passages": 97,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "first_hit": {
+    "mean": 0.6153846153846154,
+    "sd": 0.010467904883688805,
+    "ci95": [
+      0.5423878205128205,
+      0.7010849375211077
+    ]
+  },
+  "chance": {
+    "mean": 0.42788433076894616,
+    "sd": 0.0,
+    "ci95": [
+      0.3914695500595182,
+      0.4753115840286468
+    ]
+  },
+  "lift": {
+    "mean": 0.18750028461566925,
+    "sd": 0.010467904883688803,
+    "ci95": [
+      0.12659430553489223,
+      0.25528113945757164
+    ]
+  },
+  "precision": {
+    "mean": 0.5528494494011734,
+    "sd": 0.010457973453767758,
+    "ci95": [
+      0.49844513878818364,
+      0.6076051397568888
+    ]
+  },
+  "recall": {
+    "mean": 0.4326101249178172,
+    "sd": 0.012194107160415137,
+    "ci95": [
+      0.39469693660956845,
+      0.47792151565530616
+    ]
+  },
+  "f1": {
+    "mean": 0.48518039483839753,
+    "sd": 0.005990583625029744,
+    "ci95": [
+      0.44371409960026403,
+      0.5291187050865074
+    ]
+  },
+  "sentence_ap": {
+    "mean": 0.674397953237239,
+    "sd": 0.003387761852637283,
+    "ci95": [
+      0.626943702207116,
+      0.7265359687061126
+    ]
+  },
+  "marked_per_position": {
+    "mean": 2.5448717948717947,
+    "sd": 0.10739172541135951,
+    "ci95": [
+      2.4296194824961947,
+      2.650798319327731
+    ]
+  },
+  "by_category": [
+    {
+      "category": "anti_reductionism",
+      "cases": 4,
+      "first_hit": 0.25,
+      "chance": 0.2648809523809524,
+      "sentence_ap": 0.43463955026455026
+    },
+    {
+      "category": "communitarianism",
+      "cases": 8,
+      "first_hit": 0.6666666666666666,
+      "chance": 0.4357142857142857,
+      "sentence_ap": 0.7066865079365079
+    },
+    {
+      "category": "consequentialism",
+      "cases": 58,
+      "first_hit": 0.6264367816091955,
+      "chance": 0.46763882669055085,
+      "sentence_ap": 0.6895228385386432
+    },
+    {
+      "category": "deontology",
+      "cases": 20,
+      "first_hit": 0.5166666666666666,
+      "chance": 0.3269678932178932,
+      "sentence_ap": 0.6063734567901233
+    },
+    {
+      "category": "determinism_free_will",
+      "cases": 6,
+      "first_hit": 0.5555555555555555,
+      "chance": 0.41071428571428575,
+      "sentence_ap": 0.5919453892668178
+    },
+    {
+      "category": "empiricism",
+      "cases": 32,
+      "first_hit": 0.6979166666666666,
+      "chance": 0.48125476953601953,
+      "sentence_ap": 0.734904776936027
+    },
+    {
+      "category": "individualism",
+      "cases": 11,
+      "first_hit": 0.5151515151515151,
+      "chance": 0.29264069264069265,
+      "sentence_ap": 0.5968343062661244
+    },
+    {
+      "category": "physicalism_naturalism",
+      "cases": 2,
+      "first_hit": 0.5,
+      "chance": 0.25595238095238093,
+      "sentence_ap": 0.5032407407407408
+    },
+    {
+      "category": "rationalism",
+      "cases": 1,
+      "first_hit": 0.0,
+      "chance": 0.38461538461538464,
+      "sentence_ap": 0.40071188071188063
+    },
+    {
+      "category": "relativism_objectivism",
+      "cases": 7,
+      "first_hit": 1.0,
+      "chance": 0.5968253968253968,
+      "sentence_ap": 0.8239890400604687
+    },
+    {
+      "category": "state_neutrality_perfectionism",
+      "cases": 4,
+      "first_hit": 0.5,
+      "chance": 0.30446428571428574,
+      "sentence_ap": 0.6479166666666667
+    },
+    {
+      "category": "virtue_ethics",
+      "cases": 3,
+      "first_hit": 0.5555555555555555,
+      "chance": 0.38888888888888884,
+      "sentence_ap": 0.7645502645502645
+    }
+  ],
+  "thresholds": [
+    {
+      "seed": 0,
+      "run": "final_seed0",
+      "physicalism_naturalism": 0.05,
+      "anti_reductionism": 0.05,
+      "determinism_free_will": 0.05,
+      "empiricism": 0.15,
+      "rationalism": 0.05,
+      "relativism_objectivism": 0.05,
+      "consequentialism": 0.1,
+      "deontology": 0.05,
+      "virtue_ethics": 0.05,
+      "individualism": 0.1,
+      "communitarianism": 0.05,
+      "state_neutrality_perfectionism": 0.05
+    },
+    {
+      "seed": 1,
+      "run": "final_seed1",
+      "physicalism_naturalism": 0.15,
+      "anti_reductionism": 0.15,
+      "determinism_free_will": 0.15,
+      "empiricism": 0.15,
+      "rationalism": 0.15,
+      "relativism_objectivism": 0.15,
+      "consequentialism": 0.05,
+      "deontology": 0.1,
+      "virtue_ethics": 0.15,
+      "individualism": 0.25,
+      "communitarianism": 0.15,
+      "state_neutrality_perfectionism": 0.15
+    },
+    {
+      "seed": 2,
+      "run": "final_seed2",
+      "physicalism_naturalism": 0.05,
+      "anti_reductionism": 0.05,
+      "determinism_free_will": 0.05,
+      "empiricism": 0.4,
+      "rationalism": 0.05,
+      "relativism_objectivism": 0.05,
+      "consequentialism": 0.05,
+      "deontology": 0.2,
+      "virtue_ethics": 0.05,
+      "individualism": 0.15,
+      "communitarianism": 0.05,
+      "state_neutrality_perfectionism": 0.05
+    }
+  ]
+}

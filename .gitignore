@@ -1,0 +1,44 @@
+# credentials
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+.env
+.env.*
+*service_account*.json
+*credentials*.json
+
+# article text (copyrighted, see data/README.md)
+data/raw/
+data/processed/
+
+# python
+.venv/
+.venv-demo/
+.venv-modal/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# model weights
+models/
+*.pt
+*.bin
+*.safetensors
+
+# experiment runs, cluster logs and archives
+runs/
+logs/
+*.tgz
+wandb/
+mlruns/
+
+# built Hugging Face Space (scripts/build_space.py)
+build/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

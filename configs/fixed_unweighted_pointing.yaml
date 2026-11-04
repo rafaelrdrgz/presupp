@@ -1,0 +1,26 @@
+name: fixed_unweighted_pointing
+description: >
+  The baseline for v3: fixed_unweighted retrained on the final data, which also scores each
+  stored sentence of its validation and test passages on its own, as the v1 app finds evidence.
+model_type: transformer
+score_sentences_alone: true
+split: grouped_cv
+label_mode: hard
+class_weighting: none
+scheduler: linear
+decay_norm_and_bias: false
+selection_metric: macro_pr_auc
+threshold_policy: min_positives
+threshold_min_positives: 10
+decode: ipc_exclusive
+model_name: roberta-base
+max_length: 512
+batch_size: 8
+learning_rate: 2.0e-5
+weight_decay: 0.02
+dropout: 0.2
+freeze_layers: 6
+epochs: 20
+patience: 5
+warmup_ratio: 0.1
+seeds: [0, 1, 2]

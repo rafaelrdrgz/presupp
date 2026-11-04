@@ -1,0 +1,85 @@
+passage_id,category,recorded,evidence_sentences,splitter
+ADA46,consequentialism,1;4;6,1;2;4,"stored split, also at colons"
+ADA46,determinism_free_will,1;6,1;4,"stored split, also at colons"
+ADA46,empiricism,2;3;4;5,2;3,"stored split, also at colons"
+AEI52,individualism,1;5;6,1;4;5,NLTK
+AEI52,virtue_ethics,5;6,4;5,NLTK
+ATL245,consequentialism,1;2;3,1;2;3,NLTK
+ATL245,deontology,5;6;8,5;6;7,NLTK
+ATL260,consequentialism,3;4,3,NLTK
+ATL475,consequentialism,4;5;6;7,4;5;6,NLTK
+ATL482,deontology,1;2;6;7,1;2;6,plain split at . ! ?
+ATL482,relativism_objectivism,6;7,6,plain split at . ! ?
+ATL5,consequentialism,5;6;8,4;5;7,"stored split, also at colons"
+BBC250,deontology,6;7,5;6,"stored split, also at colons"
+ECO503,consequentialism,4;5;6;7;8,4;5;6;7,"stored split, also at colons"
+ECO503,empiricism,2;3;4;5,2;3;4;5,"stored split, also at colons"
+ECO891,determinism_free_will,7;8;9,6;7;8,NLTK
+G455,individualism,7;8,6,NLTK
+G674,deontology,1;2;7;8,1;2;7,NLTK
+GOV11,consequentialism,2;5;6;7;8;9;10,2;5;6;7;8,"stored split, also at colons"
+GOV11,empiricism,1;2;3;4;5;6,1;2;3;4;5;6,"stored split, also at colons"
+GOV1658,consequentialism,5;7;8,4;6,"stored split, also at colons"
+GOV1699,empiricism,1;2;3;6;7,1;2;4;5,"stored split, also at colons"
+GOV1764,consequentialism,3;4;5;6;8;9,3;4;5;6;7;8,"stored split, also at colons"
+GOV1764,deontology,9,8,"stored split, also at colons"
+GOV2891,communitarianism,6;8;9,5;7;8,"stored split, also at colons"
+GOV2891,deontology,2;3;4,2;3;4,"stored split, also at colons"
+GOV3415,consequentialism,5;6;7;8,4;5;6;7,"stored split, also at colons"
+GOV3415,empiricism,5;6;7,4;5;6,"stored split, also at colons"
+GOV4078,consequentialism,1;5;6,1;4;5,"stored split, also at colons"
+GOV4078,determinism_free_will,5;6,4;5,"stored split, also at colons"
+MIT402,consequentialism,4;5;6;7,4;5;6,NLTK
+MIT745,communitarianism,1;5,1;4,NLTK
+MIT745,consequentialism,1;2;3;5,1;2;3;4,NLTK
+MIT745,deontology,5,4,NLTK
+PP1318,determinism_free_will,10;11,9;10,NLTK
+PP139,empiricism,1;2;3,1;2,NLTK
+PP139,individualism,5;6;7,3;4;5,NLTK
+PP1757,virtue_ethics,1;2;3;4;5,1;2;3;4,NLTK
+PP1965,deontology,4;5;6;7;8,4;5;6;7,NLTK
+PP277,consequentialism,5;6,4;5,NLTK
+PP277,empiricism,1;2;3;4;6,1;2;3;5,NLTK
+PP286,consequentialism,6;7,5,NLTK
+PP286,empiricism,3;4;7,2;3;5,NLTK
+PP3097,deontology,6;7,4;5,NLTK
+PP3483,consequentialism,4;5;6;7,3;4;5;6,NLTK
+PP3483,individualism,8,7,NLTK
+PP396,empiricism,3;4;5;6,3;4,NLTK
+PP400,empiricism,2;3;4;5,2;3;4,NLTK
+PP402,empiricism,5;6,5,NLTK
+STAT11,empiricism,4;5;6,3;4;5,NLTK
+STAT486,consequentialism,8,4,plain split at . ! ?
+STAT486,empiricism,7;8,3;4,plain split at . ! ?
+STAT638,consequentialism,2;6;7,2;4;5,plain split at . ! ?
+STAT638,empiricism,3;4;5,3,plain split at . ! ?
+UH1088,communitarianism,12,6,"NLTK, also at colons"
+UH1088,individualism,10;12,6,"NLTK, also at colons"
+UH1088,state_neutrality_perfectionism,10;11;12,6,"NLTK, also at colons"
+VOX1058,consequentialism,5;6,4;5,NLTK
+VOX123,consequentialism,2;3;9,2;6,NLTK
+VOX1343,consequentialism,5;6,3;4,NLTK
+VOX1343,deontology,6;7,4;5,NLTK
+VOX1343,empiricism,2;5;6,2;3;4,NLTK
+VOX20,individualism,4;5;6,4;5;6,NLTK
+VOX20,state_neutrality_perfectionism,1;2;6;7,1;2;6,NLTK
+VOX304,consequentialism,4,3,NLTK
+VOX304,individualism,2;3;4,2;3,NLTK
+VOX546,consequentialism,5;6;7,4;5;6,NLTK
+VOX546,individualism,5;6,4;5,NLTK
+WIR153,communitarianism,2;3,1;2,NLTK
+WIR153,relativism_objectivism,5;6;7,4;5;6,NLTK
+WIR210,consequentialism,2;3;4;5;6,1;2;3;4,NLTK
+WIR210,individualism,1;2,1,NLTK
+WIR646,consequentialism,5;6;7;8;9,4;5;6;7;8,NLTK
+WIR646,determinism_free_will,2;3,1;2,NLTK
+WIR801,consequentialism,3;4;7;8,3;4;6,"stored split, also at colons"
+p_334f0f_004,consequentialism,5;7;8,3;5;6,NLTK
+p_334f0f_004,individualism,3;4;7,2;5,NLTK
+p_334f0f_012,empiricism,1;3;4,1;3;4,NLTK
+p_334f0f_012,individualism,5;6;8;9,5;7;8,NLTK
+p_38af3a_003,deontology,5;6;7;8,5;6,NLTK
+p_38af3a_003,rationalism,6;7,5;6,NLTK
+p_38af3a_003,relativism_objectivism,4;5;6,4;5,NLTK
+p_f9c4ac_005,consequentialism,4;5,3;4,"stored split, also at colons"
+p_f9c4ac_005,relativism_objectivism,1;2;3;4,1;2;3,"stored split, also at colons"

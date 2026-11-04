@@ -1,0 +1,270 @@
+{
+  "name": "v1_recipe_grouped_cv",
+  "n_passages": 1114,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "incomplete": {},
+  "headline": {
+    "macro_f1": {
+      "mean": 0.4894442733357998,
+      "sd": 0.009855467416762648,
+      "ci95": [
+        0.4412221901598922,
+        0.5178175762952423
+      ]
+    },
+    "macro_f1_measurable": {
+      "mean": 0.5075247239136919,
+      "sd": 0.008965541458530398,
+      "ci95": [
+        0.47088022692026615,
+        0.5341237498373947
+      ]
+    },
+    "micro_f1": {
+      "mean": 0.625159375172136,
+      "sd": 0.0073764341746860125,
+      "ci95": [
+        0.6054463800557728,
+        0.644036322607289
+      ]
+    },
+    "macro_average_precision": {
+      "mean": 0.5173260766614818,
+      "sd": 0.011532251015792597
+    },
+    "calibration_error": {
+      "mean": 0.0596591402432331,
+      "sd": 0.014691976583056644
+    },
+    "share_with_no_label": {
+      "mean": 0.01765409934171155,
+      "sd": 0.0015257389328524188
+    },
+    "labels_in_macro": 13,
+    "labels_in_measurable_macro": 11
+  },
+  "per_label": [
+    {
+      "label": "physicalism_naturalism",
+      "articles": 11,
+      "measurable": false,
+      "dev_positives": 23,
+      "precision": 0.28757113821138214,
+      "recall": 0.5072463768115942,
+      "f1": 0.3645132835201328,
+      "f1_ci_low": 0.18491096049337788,
+      "f1_ci_high": 0.5234772889818575,
+      "average_precision": 0.2983576408865877
+    },
+    {
+      "label": "anti_reductionism",
+      "articles": 23,
+      "measurable": true,
+      "dev_positives": 39,
+      "precision": 0.4071881277763631,
+      "recall": 0.6837606837606837,
+      "f1": 0.5079007828012433,
+      "f1_ci_low": 0.2904207202783152,
+      "f1_ci_high": 0.6741317811692963,
+      "average_precision": 0.5300885927593225
+    },
+    {
+      "label": "determinism_free_will",
+      "articles": 47,
+      "measurable": true,
+      "dev_positives": 65,
+      "precision": 0.3392964100155809,
+      "recall": 0.5230769230769231,
+      "f1": 0.409346347234546,
+      "f1_ci_low": 0.24285968098834743,
+      "f1_ci_high": 0.5581608268172455,
+      "average_precision": 0.392137108342477
+    },
+    {
+      "label": "empiricism",
+      "articles": 255,
+      "measurable": true,
+      "dev_positives": 340,
+      "precision": 0.7486299347447368,
+      "recall": 0.7578431372549019,
+      "f1": 0.7526360674378431,
+      "f1_ci_low": 0.7104668376020445,
+      "f1_ci_high": 0.7895324794778465,
+      "average_precision": 0.8190958939817051
+    },
+    {
+      "label": "rationalism",
+      "articles": 5,
+      "measurable": false,
+      "dev_positives": 9,
+      "precision": 0.3349720454983613,
+      "recall": 0.5555555555555556,
+      "f1": 0.41549030679465465,
+      "f1_ci_low": 0.0,
+      "f1_ci_high": 0.6994853801169589,
+      "average_precision": 0.6532529057522386
+    },
+    {
+      "label": "relativism_objectivism",
+      "articles": 69,
+      "measurable": true,
+      "dev_positives": 86,
+      "precision": 0.3428649136215598,
+      "recall": 0.5697674418604651,
+      "f1": 0.42719693586084134,
+      "f1_ci_low": 0.32635633454580837,
+      "f1_ci_high": 0.5101329030842086,
+      "average_precision": 0.46329362192782875
+    },
+    {
+      "label": "consequentialism",
+      "articles": 426,
+      "measurable": true,
+      "dev_positives": 581,
+      "precision": 0.7189787053193756,
+      "recall": 0.853126792885829,
+      "f1": 0.7801848023143463,
+      "f1_ci_low": 0.7511544524794231,
+      "f1_ci_high": 0.8046797218630249,
+      "average_precision": 0.869286841177933
+    },
+    {
+      "label": "deontology",
+      "articles": 166,
+      "measurable": true,
+      "dev_positives": 197,
+      "precision": 0.5310930369636427,
+      "recall": 0.7021996615905245,
+      "f1": 0.6046595362701519,
+      "f1_ci_low": 0.5492681940423525,
+      "f1_ci_high": 0.6585474777732003,
+      "average_precision": 0.6407786396126932
+    },
+    {
+      "label": "virtue_ethics",
+      "articles": 25,
+      "measurable": true,
+      "dev_positives": 32,
+      "precision": 0.26260913259217383,
+      "recall": 0.4166666666666667,
+      "f1": 0.3189593955609403,
+      "f1_ci_low": 0.15724521702814262,
+      "f1_ci_high": 0.44635000856018187,
+      "average_precision": 0.2863519514460819
+    },
+    {
+      "label": "individualism",
+      "articles": 83,
+      "measurable": true,
+      "dev_positives": 119,
+      "precision": 0.39873401792006447,
+      "recall": 0.48459383753501406,
+      "f1": 0.43678684394075423,
+      "f1_ci_low": 0.30728071543879015,
+      "f1_ci_high": 0.5519386142305196,
+      "average_precision": 0.4295550016184069
+    },
+    {
+      "label": "communitarianism",
+      "articles": 75,
+      "measurable": true,
+      "dev_positives": 91,
+      "precision": 0.4230209605209605,
+      "recall": 0.641025641025641,
+      "f1": 0.5094651697905765,
+      "f1_ci_low": 0.4246885994129028,
+      "f1_ci_high": 0.5913001879884492,
+      "average_precision": 0.5190115935984326
+    },
+    {
+      "label": "state_neutrality_perfectionism",
+      "articles": 35,
+      "measurable": true,
+      "dev_positives": 39,
+      "precision": 0.2060783036282129,
+      "recall": 0.36752136752136755,
+      "f1": 0.26294853278268787,
+      "f1_ci_low": 0.1151981302120829,
+      "f1_ci_high": 0.3816694539191561,
+      "average_precision": 0.20119442167977528
+    },
+    {
+      "label": "insufficient_philosophical_content",
+      "articles": 145,
+      "measurable": true,
+      "dev_positives": 159,
+      "precision": 0.5582219151022745,
+      "recall": 0.5911949685534591,
+      "f1": 0.5726875490566795,
+      "f1_ci_low": 0.5055302677749717,
+      "f1_ci_high": 0.635353655913979,
+      "average_precision": 0.6228347838157813
+    }
+  ],
+  "calibration": [
+    {
+      "bin": "0.0-0.1",
+      "n": 8817,
+      "mean_predicted": 0.036346007395232874,
+      "observed": 0.011341726210729272
+    },
+    {
+      "bin": "0.1-0.2",
+      "n": 1734,
+      "mean_predicted": 0.14206014545537712,
+      "observed": 0.07035755478662054
+    },
+    {
+      "bin": "0.2-0.3",
+      "n": 914,
+      "mean_predicted": 0.24669585216221185,
+      "observed": 0.12910284463894967
+    },
+    {
+      "bin": "0.3-0.4",
+      "n": 639,
+      "mean_predicted": 0.34759385877298105,
+      "observed": 0.20344287949921752
+    },
+    {
+      "bin": "0.4-0.5",
+      "n": 485,
+      "mean_predicted": 0.44815518934906967,
+      "observed": 0.29896907216494845
+    },
+    {
+      "bin": "0.5-0.6",
+      "n": 429,
+      "mean_predicted": 0.5472354707311732,
+      "observed": 0.4125874125874126
+    },
+    {
+      "bin": "0.6-0.7",
+      "n": 356,
+      "mean_predicted": 0.6505175441615144,
+      "observed": 0.5252808988764045
+    },
+    {
+      "bin": "0.7-0.8",
+      "n": 336,
+      "mean_predicted": 0.7509993914041727,
+      "observed": 0.5744047619047619
+    },
+    {
+      "bin": "0.8-0.9",
+      "n": 383,
+      "mean_predicted": 0.8504150602690959,
+      "observed": 0.7232375979112271
+    },
+    {
+      "bin": "0.9-1.0",
+      "n": 389,
+      "mean_predicted": 0.9456242978215319,
+      "observed": 0.8508997429305912
+    }
+  ]
+}
