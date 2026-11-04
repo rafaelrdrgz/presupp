@@ -6,6 +6,8 @@ An editorial using the sentence "evidence-based policy should rely on what works
 
 I chose positions that cover the breadth of philosophy, rather than ones I expected to score well, so the results show what the model can learn from the annotations. It does best on the positions that appear most often in public writing: consequentialism, empiricism and deontology. It also assigns positions more often than it should, so each one is worth checking against the sentences it marks. The main limit is the data. Three philosophy specialists who annotated a sample marked about half as many positions as I did, and more expert annotation is the next step.
 
+If you would like to help me improve this project, please contact me, I would really like to progress this classifier further. 
+
 I wrote about the project in a guest post for [The Computational Philosopher](https://computationalphilosopher.substack.com/p/how-much-philosophy-can-a-language), please read it as it contains further important discussion and I worked hard on it :)
 
 ## The taxonomy
