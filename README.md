@@ -1,12 +1,15 @@
 This is a classifier made to detect the philosophical assumptions that arguments in news and policy writing rely on implicitly.
 
-This project was originally as my final-year dissertation (BSc Philosophy and Computer Science, Northeastern University London, March 2026, Graded 75). This repository is an improved rebuild of the submitted version. The dissertation's headline score came from a split that let paragraphs from the same article sit in both the training and test data, so I rebuilt the dataset and the evaluation. The other main addition is a deployable app, and the remaining technical changes are minor.
+This project was originally completed as my final-year dissertation (BSc Philosophy and Computer Science, Northeastern University London, March 2026, Graded 75). This repository is an improved rebuild of the submitted version. The dissertation's headline score came from a split that let paragraphs from the same article sit in both the training and test data, so I rebuilt the dataset and the evaluation. The other main addition is a deployable app, and the remaining technical changes are minor.
 
 An editorial using the sentence "evidence-based policy should rely on what works" relies on an empiricist view of knowledge and a consequentialist view of what makes a policy right, though it says neither. This project tries to detect commitments like these automatically. Given a passage, the model assigns any of 12 philosophical positions from four domains and marks the sentences each one rests on. With enough reliable labels, this could be used to build philosophical profiles of publishers and speakers.
 
 I chose positions that cover the breadth of philosophy, rather than ones I expected to score well, so the results show what the model can learn from the annotations. It does best on the positions that appear most often in public writing: consequentialism, empiricism and deontology. It also assigns positions more often than it should, so each one is worth checking against the sentences it marks. The main limit is the data. Three philosophy specialists who annotated a sample marked about half as many positions as I did, and more expert annotation is the next step.
 
+If you would like to help me improve this project, please contact me, I would really like to progress this classifier further. 
+
 I wrote about the project in a guest post for [The Computational Philosopher](https://computationalphilosopher.substack.com/p/how-much-philosophy-can-a-language), please read it as it contains further important discussion and I worked hard on it :)
+There is a Demo of this classifier running [Here](https://rafaelrdrgz--presupposition-finder.us-east.modal.run).
 
 ## The taxonomy
 
