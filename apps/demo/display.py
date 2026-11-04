@@ -152,6 +152,16 @@ footer { display: none !important; }
   max-width: 44em; }
 .pf-caveat u { color: inherit !important; font-weight: inherit !important;
   text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.pf-links { display: flex; flex-wrap: wrap; gap: 8px; margin: -4px 0 0 !important;
+  padding-bottom: 24px; }
+.gradio-container .pf-links a { display: inline-flex; align-items: center; gap: 7px;
+  padding: 7px 12px; border: 1px solid var(--pf-rule); color: var(--pf-vellum);
+  font: 500 0.875rem/1.2 var(--pf-sans); text-decoration: none; }
+.gradio-container .pf-links a:hover { background: var(--pf-ink-raised);
+  border-color: var(--pf-faded); }
+.pf-links svg { width: 15px; height: 15px; fill: currentColor; flex: none; }
+.gradio-container .pf-links img { width: 16px; height: 16px; margin: 0 !important;
+  border-radius: 2px; flex: none; }
 
 /* input */
 #pf-input textarea { font: 400 1.0625rem/1.6 var(--pf-serif) !important;
@@ -288,6 +298,9 @@ footer { display: none !important; }
   #pf-work { grid-area: work; }
   #pf-about { grid-area: about; margin-top: 4px; }
   .pf-lede { font-size: 1.125rem; }
+  .pf-links { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #pf-intro .pf-links a { justify-content: center; gap: 6px; padding-inline: 4px;
+    font-size: 0.8125rem; white-space: nowrap; }
   #pf-about .prose table { font-size: 0.8125rem; }
 }
 @media (max-width: 860px) {
