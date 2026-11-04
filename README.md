@@ -9,6 +9,7 @@ I chose positions that cover the breadth of philosophy, rather than ones I expec
 If you would like to help me improve this project, please contact me, I would really like to progress this classifier further. 
 
 I wrote about the project in a guest post for [The Computational Philosopher](https://computationalphilosopher.substack.com/p/how-much-philosophy-can-a-language), please read it as it contains further important discussion and I worked hard on it :)
+There is a Demo of this classifier running [Here](https://rafaelrdrgz--presupposition-finder.us-east.modal.run).
 
 ## The taxonomy
 
